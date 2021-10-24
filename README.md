@@ -51,6 +51,13 @@ sudo pacman -S base-devel
 sudo pacman -S pkg-config lv2 libsndfile libX11-dev cairo
 ```
 
+And on RPM linux-based systems (Fedora, OpenSuse):
+```
+group devel 
+sudo dnf install lv2-devel lv2lint 
+```
+
+
 Recommended optional tools:
 * Jalv (minimal LV2 host)
 * [lv2lint](https://github.com/OpenMusicKontrollers/lv2lint) (validation)
